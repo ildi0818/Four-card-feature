@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --width: 280px;
+    --height: 195px;
+    --border: 5px;
+    --padding: 10px 25px 25px;
+    --shadow: 2px 6px 16px rgb(201, 189, 189);
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 15px;
+    margin: 0;
+}
+
+.title {
+    max-width: 320px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.cyan {
+    max-width: var(--width);
+    height: var(--height);
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: var(--border);
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--padding);
+    box-shadow: var(--shadow);
+}
+
+.red {
+    max-width: var(--width);
+    height: var(--height);
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-radius: var(--border);
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--padding);
+    box-shadow: var(--shadow);
+}
+
+.orange {
+    max-width: var(--width);
+    height: var(--height);
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-radius: var(--border);
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--padding);
+    box-shadow: var(--shadow);
+}
+
+.blue {
+    max-width: var(--width);
+    height: var(--height);
+    border-top: 4px solid hsl(212, 86%, 64%);
+    border-radius: var(--border);
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--padding);
+    box-shadow: var(--shadow);
+}
+
+h2:first-child {
+    font-weight: 200;
+}
+
+h2 {
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+div p {
+    color: hsl(212, 6%, 44%);
+}
+
+p, h2, h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+img {
+    width: 60px;
+    margin-top: 10px;
+    position: absolute;
+    right: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+    .title {
+        max-width: 500px;
+    }
+
+    .boxes {
+        display: flex;
+        align-items: center;
+    }
+
+    .cyan {
+        margin-right: 25px;
+    }
+
+    .blue {
+        margin-left: 25px;
+    }
+}
