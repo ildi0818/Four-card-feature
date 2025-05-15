@@ -11,6 +11,7 @@
 body {
     font-family: "Poppins";
     font-size: 15px;
+    height: 100vh;
     margin: 0;
 }
 
@@ -96,21 +97,16 @@ img {
     right: 30px;
 }
 
-@media screen and (min-width: 1000px) {
-    .title {
+ @media screen and (min-width: 1015px) {
+   .title {
         max-width: 500px;
+        margin: auto;
+        padding-top: 15px;
     }
 
     .boxes {
         display: flex;
-        align-items: center;
-    }
-
-    .cyan {
-        margin-right: 25px;
-    }
-
-    .blue {
-        margin-left: 25px;
+        padding: 30px;
+        align-items: center; 
     }
 }
